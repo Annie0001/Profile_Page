@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-left">
+                <h1>Profile</h1>
+                <a href="#" class="home">Home</a>
+                <a href="#" class="my-profile">My Profile</a>
+                <a href="#" class="connections">Find Connections</a>
+            </div>
+            <button class="sign-out-button">Sign Out</button>
+        </div>
+        <div class="main-body">
+            <div class="leftColumn">
+                <div class="user-card">
+                    <div class="user-card-container">
+                        <div class="top-blue-area">
+                            <img src="./images/user-circle.png" alt="user-circle" class="picture-1">
+                        </div>
+                        <div class="card-body"> 
+                            <h1 class="Profile-name">Jane Doe</h1>
+                            <img src="./images/map-marker.png" alt="map-marker" class="picture-2">
+                            <h3 class="city">Seattle</h3> 
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                            <div class="profilelink">
+                                <img src="./images/gear.png" alt="gear" class="picture-3">
+                                <a href="#" class="edit-profile" onclick="changeUserName()">edit Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3 class="educationbar">Education</h3>
+                    <div class="bottompart">
+                        <h2>Coding dojo - Full Stack Bootcamp</h2>
+                        <p>Dec 2019 - Mar 2020</p>
+                        <h3>triple black belt in Python,MERN, and C# ...</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="rightColumn">
+                <div class="connection-request">
+                    <div class="topSection">
+                        <button class="circleTwo">2</button>
+                        <h3 class="connection">Connection Requests</h3>
+                    </div>
+                    <div class="bottom-section">
+                        <div class="tod">
+                            <div class="tod-pic-name">
+                                <img src="./images/todd-s.jpg" alt="tod-k" class="tod-pic">
+                                <h4 >Tod E</h4>
+                            </div>
+                            <div class="circles-1">
+                                <img src="./icons2/accept-circle.png" alt="accept" class="accept-1">
+                                <img src="./icons2/close-circle.png" alt="decline" class="decline-1">
+                            </div>
+                        </div>
+                        <div class="phil">
+                            <div class="phil-pic-name">
+                                <img src="./images/phil-s.jpg" alt="phil-k" class="phil-pic">
+                                <h4>Phil K</h4>
+                            </div>
+                            <div class="circles-2">
+                                <img src="./icons2/accept-circle.png" alt="accept" class="accept-2">
+                                <img src="./icons2/close-circle.png" alt="decline" class="decline-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="yourconnections">
+                    <div class="yourconnectionstop">
+                        <button class="buttonFiveHundred">500+</button>
+                        <h2>Your connections</h2>
+                    </div>
+                    <div class="connectionsbody">
+                        <div class="connection1">
+                            <img src="./images/adrien-s.jpg" alt="adrian">
+                            <p>Adrien D</p>
+                        </div> 
+                        <div class="connection2">
+                            <img src="./images/anne-s.jpg" alt="ann">
+                            <p>Anne J</p>
+                        </div>
+                        <div class="connection3">
+                            <img src="./images/alayne-s.jpg" alt="alayne">
+                            <p>alayne T</p>
+                        </div>
+                        <div class="connection4">
+                            <img src="./images/arry-s.jpg" alt="array">
+                            <p>Array Y</p>
+                        </div>
+                    </div>
+                    <a href="#" class="viewmore">ViewMore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,215 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* .container{
+
+    border: 5px solid gray;
+  
+} */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    margin: 0px auto;
+}
+
+.navbar , .home, .my-profile, .connections {
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+.navbar-left{
+    display:flex;
+    width: 30%;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.navbar button{
+    background-color: rgb(20,162,184);
+    width: 100px;
+    color:white;
+    padding:5px;
+    box-shadow: 3px lightslategray;
+}
+.main-body{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 50px;
+    width: 58%;
+    margin: 0px auto;
+
+}
+.leftColumn{
+    width: 55%;
+}
+
+.user-card-container{
+    margin: auto;
+    border: 5px solid lightgray;
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.top-blue-area{
+    background-color: rgb(20,162,184);
+    height:130px;
+    margin-bottom: 25px;
+
+}
+.picture-1{
+    width: 30%;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.card-body{
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.profilelink{
+    display:flex;
+    align-items: center;
+    margin-top:10px;
+}
+.profilelink img{
+    margin-right: 10px;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+.picture-2, .city{
+    display: inline;
+}
+.picture-2{
+    max-width: 15px;
+
+}
+.picture-3{
+    max-width: 25px;
+
+} 
+
+.card-body{
+    margin-bottom: 20px;
+}
+.education{
+    border: 5px solid lightgray;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.educationbar{
+    background-color: rgb(78, 73, 73);
+    height:40px;
+    color:white;
+    padding-left: 10px;
+    padding-top:10px;
+}
+.bottompart{
+    padding: 20px;
+    text-align: left;
+}
+.bottompart h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rightColumn{
+    /* border:5px solid burlywood; */
+    width:40%;
+}
+.connection-request{
+    border: 5px solid lightgray;
+}
+.topSection{
+    display:flex;
+    align-items: center;
+    background-color: rgb(78, 73, 73);
+    border: 2px solid rgb(78, 73, 73);
+    height: 40px;
+    padding:5px;
+}
+.bottom-section{
+    padding-right: 20px;
+}
+.circleTwo{
+    background-color: lightslategray;
+    width:30px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-right: 10px;
+}
+.connection{
+    color: white;
+}
+.tod, .phil{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.tod-pic-name , .circles-1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+.tod-pic , .phil-pic{
+    border-radius: 50%;
+    width: 50px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+.accept-1 , .decline-1 ,.accept-2, .decline-2{
+    width: 30px;
+    padding:2px;
+}
+
+.phil-pic-name , .circles-2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+.yourconnections{
+    border:5px solid lightgray;
+    margin-top:30px;
+}
+.yourconnectionstop{
+    background-color: rgb(78, 73, 73);
+    border: 2px solid rgb(78, 73, 73);
+    height: 40px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.buttonFiveHundred {
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid gray;
+    border-radius: 40%;
+    background-color: gray;
+}
+.connectionsbody{
+    padding:20px;
+    border-bottom: 5px solid lightgray;
+    
+}
+.connectionsbody img{
+    border-radius: 50%;
+    width: 50px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+.connection1, .connection2,.connection3,.connection4{
+    display: flex;
+    align-items: center;
+}
+.viewmore{
+    padding: 10px;
+}
